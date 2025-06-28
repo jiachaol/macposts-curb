@@ -1,0 +1,40 @@
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal_due.Err
+Wed Jun 16 19:30:30 2021
+Execution stopped: !std::isinf(_temp_cost), file /home/qiling/Documents/MAC-POSTS/src/minami/shortest_path.cpp, line 483
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal_due.Err
+Wed Jun 16 22:25:03 2021
+Execution stopped: _col == _best_assign_col, file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 8125
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal_due.Err
+Thu Jun 17 21:18:27 2021
+Execution stopped: _path->m_buffer_length > col, file /home/qiling/Documents/MAC-POSTS/src/minami/path.cpp, line 477
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal_due.Err
+Wed Jul 28 20:42:49 2021
+Execution stopped: m_node_vec.size() == m_link_vec.size() + 1, file /home/qiling/Documents/MAC-POSTS/src/minami/path.cpp, line 152
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal_due.Err
+Thu Jul 29 10:51:02 2021
+Execution stopped: std::abs(_tot_dmd_after - _tot_dmd_before) <= 1e-6 * std::max(std::abs(_tot_dmd_after), std::abs(_tot_dmd_before)), file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 8586
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal_due.Err
+Thu Jul 29 11:07:18 2021
+Execution stopped: _tau * _tmp_change <= _tmp_path->m_buffer[_col], file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 8566
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal_due.Err
+Tue Sep  7 16:55:28 2021
+Execution stopped: dynamic_cast<MNM_Routing_Multimodal_Hybrid*>(mmdta -> m_routing) -> m_routing_car_pnr_fixed -> m_pnr_path_table == nullptr, file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 7891
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal_due.Err
+Wed Sep  8 12:53:42 2021
+Execution stopped: std::abs(_tot_dmd_after - _tot_dmd_before) <= 1e-6 * std::max(std::abs(_tot_dmd_after), std::abs(_tot_dmd_before)), file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 9673
+--------

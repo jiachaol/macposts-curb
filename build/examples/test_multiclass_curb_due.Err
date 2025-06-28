@@ -1,0 +1,40 @@
+--------
+/srv/data/jiachao/MAC-POSTS/build/examples/test_multiclass_curb_due.Err
+Sat Jan  6 08:36:04 2024
+Execution stopped: ((this!=GetNullRStr())&&(Refs==0))||((this==GetNullRStr())&&(Refs==1)), file /srv/data/jiachao/MAC-POSTS/src/glib-core/dt.h, line 366
+--------
+--------
+/srv/data/jiachao/MAC-POSTS/build/examples/test_multiclass_curb_due.Err
+Sat Jan  6 08:39:37 2024
+Execution stopped: ((this!=GetNullRStr())&&(Refs==0))||((this==GetNullRStr())&&(Refs==1)), file /srv/data/jiachao/MAC-POSTS/src/glib-core/dt.h, line 366
+--------
+--------
+/srv/data/jiachao/MAC-POSTS/build/examples/test_multiclass_curb_due.Err
+Sat Jan  6 09:25:33 2024
+Execution stopped: ((this!=GetNullRStr())&&(Refs==0))||((this==GetNullRStr())&&(Refs==1)), file /srv/data/jiachao/MAC-POSTS/src/glib-core/dt.h, line 366
+--------
+--------
+/srv/data/jiachao/MAC-POSTS/build/examples/test_multiclass_curb_due.Err
+Sat Jan  6 09:27:24 2024
+Execution stopped: ((this!=GetNullRStr())&&(Refs==0))||((this==GetNullRStr())&&(Refs==1)), file /srv/data/jiachao/MAC-POSTS/src/glib-core/dt.h, line 366
+--------
+--------
+/srv/data/jiachao/MAC-POSTS/build/examples/test_multiclass_curb_due.Err
+Sat Jan  6 10:31:13 2024
+Execution stopped: ((this!=GetNullRStr())&&(Refs==0))||((this==GetNullRStr())&&(Refs==1)), file /srv/data/jiachao/MAC-POSTS/src/glib-core/dt.h, line 366
+--------
+--------
+/srv/data/jiachao/MAC-POSTS/build/examples/test_multiclass_curb_due.Err
+Sat Jan  6 11:34:19 2024
+Execution stopped: ((this!=GetNullRStr())&&(Refs==0))||((this==GetNullRStr())&&(Refs==1)), file /srv/data/jiachao/MAC-POSTS/src/glib-core/dt.h, line 366
+--------
+--------
+/srv/data/jiachao/MAC-POSTS/build/examples/test_multiclass_curb_due.Err
+Sat Jan  6 11:38:57 2024
+Execution stopped: ((this!=GetNullRStr())&&(Refs==0))||((this==GetNullRStr())&&(Refs==1)), file /srv/data/jiachao/MAC-POSTS/src/glib-core/dt.h, line 366
+--------
+--------
+/srv/data/jiachao/MAC-POSTS/build/examples/test_multiclass_curb_due.Err
+Sat Jan  6 11:40:07 2024
+Execution stopped: ((this!=GetNullRStr())&&(Refs==0))||((this==GetNullRStr())&&(Refs==1)), file /srv/data/jiachao/MAC-POSTS/src/glib-core/dt.h, line 366
+--------

@@ -1,0 +1,5 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/qiling/Documents/MAC-POSTS/src
+-- pybind11 v2.2.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/qiling/Documents/MAC-POSTS/src/cmake-build-debug-remote

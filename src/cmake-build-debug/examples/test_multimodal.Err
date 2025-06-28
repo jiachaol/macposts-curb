@@ -1,0 +1,80 @@
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal.Err
+Tue Mar 30 17:31:17 2021
+Execution stopped: _path -> m_buffer_length > col, file /home/qiling/Documents/MAC-POSTS/src/minami/path.cpp, line 466
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal.Err
+Tue Mar 30 17:44:06 2021
+Execution stopped: _path -> m_buffer_length > col, file /home/qiling/Documents/MAC-POSTS/src/minami/path.cpp, line 466
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal.Err
+Tue Mar 30 17:47:22 2021
+Execution stopped: _path -> m_buffer_length > col, file /home/qiling/Documents/MAC-POSTS/src/minami/path.cpp, line 466
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal.Err
+Mon Apr 26 15:20:01 2021
+Execution stopped: int(_held_queue.size()) == _veh_held_count, file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 883
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal.Err
+Mon Apr 26 18:48:03 2021
+Execution stopped: _end_time >= time, file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 124
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal.Err
+Mon Apr 26 18:49:56 2021
+Execution stopped: _end_time >= time, file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 124
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal.Err
+Mon Apr 26 19:01:35 2021
+Execution stopped: _end_time >= time, file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 124
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal.Err
+Mon Apr 26 19:13:04 2021
+Execution stopped: _end_time >= time, file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 124
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal.Err
+Wed Jun  9 15:30:11 2021
+Execution stopped: _driving_path -> m_node_vec.back() == _mid_dest_node_ID, file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 4735
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal.Err
+Wed Jun  9 17:40:44 2021
+Execution stopped: (0<=ValN)&&(ValN<Vals) [Reason:'Index:-1 Vals:17 MxVals:32 Type:4TVecI11THashKeyDatI4TIntN8TNEGraph5TNodeEEiE'], file /home/qiling/Documents/MAC-POSTS/src/glib-core/ds.h, line 455
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal.Err
+Wed Jun  9 23:32:29 2021
+Execution stopped: m_route_ID > -1 && m_from_busstop -> m_route_ID == m_route_ID && m_to_busstop -> m_route_ID == m_route_ID, file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 1368
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal.Err
+Thu Jun 10 18:28:15 2021
+Execution stopped: _bus_link == m_bus_out_link, file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 139
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal.Err
+Thu Jun 10 20:50:33 2021
+Execution stopped: _passenger -> get_next_link() == nullptr, file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 898
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal.Err
+Thu Jun 10 21:25:16 2021
+Execution stopped: _passenger -> get_next_link() -> m_link_ID == m_bus_out_link -> m_link_ID, file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 204
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal.Err
+Thu Jun 17 15:12:42 2021
+Execution stopped: _passenger -> get_next_link() -> m_link_ID == m_bus_out_link -> m_link_ID, file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 123
+--------
+--------
+/home/qiling/Documents/MAC-POSTS/src/cmake-build-debug/examples/test_multimodal.Err
+Wed Jul 28 15:56:51 2021
+Execution stopped: _path != nullptr, file /home/qiling/Documents/MAC-POSTS/src/minami/multimodal.cpp, line 3734
+--------

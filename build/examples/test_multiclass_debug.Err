@@ -1,0 +1,5 @@
+--------
+/srv/data/jiachao/MAC-POSTS/build/examples/test_multiclass_debug.Err
+Mon Mar 11 00:32:31 2024
+Execution stopped: ((this!=GetNullRStr())&&(Refs==0))||((this==GetNullRStr())&&(Refs==1)), file /srv/data/jiachao/MAC-POSTS/src/glib-core/dt.h, line 366
+--------

@@ -1,0 +1,1 @@
+g++  -std=c++11 -m64 -Wall -O3 -DNDEBUG -O3  -rdynamic CMakeFiles/test_multimodal_due.dir/test_multimodal_due.cpp.o  -o test_multimodal_due  -Wl,-rpath,/home/qiling/Documents/MAC-POSTS/src ../../../libminami.so ../../../libadv_ds.so ../../../libSnap.so ../../../libGlib.so ../../../libg3log.so 

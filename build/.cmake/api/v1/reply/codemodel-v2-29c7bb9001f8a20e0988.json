@@ -1,0 +1,311 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						6,
+						7,
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "glib-core",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "glib-core",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "snap-core",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "snap-core",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "3rdparty",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "3rdparty"
+				},
+				{
+					"build" : "3rdparty/g3log",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "3rdparty/g3log",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "3rdparty/adv_ds",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "3rdparty/adv_ds",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "minami",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "minami",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "examples",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"build" : "pybinder",
+					"childIndexes" : 
+					[
+						9
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "pybinder",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "pybinder/pybind11",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "pybinder/pybind11"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "MINAMI",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Glib::@821ee7b6e1769cfe0f96",
+					"jsonFile" : "target-Glib-Debug-b19927fcb2d87d9bd88d.json",
+					"name" : "Glib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "MNMAPI::@eadd435b1c5e35a4bb8e",
+					"jsonFile" : "target-MNMAPI-Debug-5c692cd55ead0d5bafe4.json",
+					"name" : "MNMAPI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Snap::@fd9a34a462c26eb9c3ce",
+					"jsonFile" : "target-Snap-Debug-287a5a962825587c0f28.json",
+					"name" : "Snap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "adv_ds::@4112331d40079538124b",
+					"jsonFile" : "target-adv_ds-Debug-a3756e7893ac7e07e6b2.json",
+					"name" : "adv_ds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "g3log::@764121f0e909bc8e064e",
+					"jsonFile" : "target-g3log-Debug-55a1df2c73f7e723fe07.json",
+					"name" : "g3log",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "minami::@17630ceac215fbf4ca63",
+					"jsonFile" : "target-minami-Debug-15e3d28264385d903808.json",
+					"name" : "minami",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_due::@714eac15f71a94114fdf",
+					"jsonFile" : "target-test_due-Debug-8904cf239c84b1e91a53.json",
+					"name" : "test_due",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_multiclass::@714eac15f71a94114fdf",
+					"jsonFile" : "target-test_multiclass-Debug-de190d951f6c64bd9da0.json",
+					"name" : "test_multiclass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_multiclass_control::@714eac15f71a94114fdf",
+					"jsonFile" : "target-test_multiclass_control-Debug-223e0762cd5639822fd6.json",
+					"name" : "test_multiclass_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_multiclass_curb::@714eac15f71a94114fdf",
+					"jsonFile" : "target-test_multiclass_curb-Debug-324ca4f7fac2b1fe0d25.json",
+					"name" : "test_multiclass_curb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_multiclass_debug::@714eac15f71a94114fdf",
+					"jsonFile" : "target-test_multiclass_debug-Debug-2f49aa2b3ed4ce53bb1a.json",
+					"name" : "test_multiclass_debug",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_multiclass_dso::@714eac15f71a94114fdf",
+					"jsonFile" : "target-test_multiclass_dso-Debug-6efd7b500cdd8540b402.json",
+					"name" : "test_multiclass_dso",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_multiclass_pgh::@714eac15f71a94114fdf",
+					"jsonFile" : "target-test_multiclass_pgh-Debug-576b549299f9979914d1.json",
+					"name" : "test_multiclass_pgh",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_python_api::@714eac15f71a94114fdf",
+					"jsonFile" : "target-test_python_api-Debug-6b3448f0a139270eef18.json",
+					"name" : "test_python_api",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/srv/data/jiachao/MAC-POSTS/build",
+		"source" : "/srv/data/jiachao/MAC-POSTS/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

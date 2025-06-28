@@ -1,0 +1,260 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "pybinder/MNMAPI.cpython-35m-x86_64-linux-gnu.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"pybind11_add_module",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"pybinder/pybind11/tools/pybind11Tools.cmake",
+			"pybinder/CMakeLists.txt",
+			"snap-core/CMakeLists.txt",
+			"minami/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 131,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 3,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 5,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 133,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=c++11 -m64 -Wall -g -fPIC -fvisibility=hidden"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "MNMAPI_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/home/qiling/Documents/Test/mac-posts_src/pybinder/pybind11/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/usr/include/python3.5m"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/qiling/Documents/Test/mac-posts_src/snap-core"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/qiling/Documents/Test/mac-posts_src/glib-core"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/qiling/Documents/Test/mac-posts_src/minami"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/qiling/Documents/Test/mac-posts_src/3rdparty/g3log"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/qiling/Documents/Test/mac-posts_src/3rdparty/adv_ds"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/include/eigen3"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "Glib::@821ee7b6e1769cfe0f96"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Snap::@fd9a34a462c26eb9c3ce"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "g3log::@764121f0e909bc8e064e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "adv_ds::@4112331d40079538124b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "minami::@17630ceac215fbf4ca63"
+		}
+	],
+	"id" : "MNMAPI::@eadd435b1c5e35a4bb8e",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/qiling/Documents/Test/mac-posts_src/build/minami:/home/qiling/Documents/Test/mac-posts_src/build/snap-core:/home/qiling/Documents/Test/mac-posts_src/build/glib-core:/home/qiling/Documents/Test/mac-posts_src/build/3rdparty/g3log:/home/qiling/Documents/Test/mac-posts_src/build/3rdparty/adv_ds",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../minami/libminami.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../snap-core/libSnap.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../glib-core/libGlib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "../3rdparty/g3log/libg3log.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "../3rdparty/adv_ds/libadv_ds.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "MNMAPI",
+	"nameOnDisk" : "MNMAPI.cpython-35m-x86_64-linux-gnu.so",
+	"paths" : 
+	{
+		"build" : "pybinder",
+		"source" : "pybinder"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pybinder/src/dta_api.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "pybinder/src/dta_api.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "pybinder/src/typecast_ground .cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "pybinder/src/typecast_ground.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

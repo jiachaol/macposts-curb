@@ -1,0 +1,209 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "examples/test_due"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"examples/CMakeLists.txt",
+			"snap-core/CMakeLists.txt",
+			"minami/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 5,
+				"parent" : 5
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=c++11 -m64 -Wall -g"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/qiling/Documents/Test/mac-posts_src/snap-core"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/qiling/Documents/Test/mac-posts_src/glib-core"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/qiling/Documents/Test/mac-posts_src/minami"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/qiling/Documents/Test/mac-posts_src/3rdparty/g3log"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/qiling/Documents/Test/mac-posts_src/3rdparty/adv_ds"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/local/include/eigen3"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Glib::@821ee7b6e1769cfe0f96"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Snap::@fd9a34a462c26eb9c3ce"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "g3log::@764121f0e909bc8e064e"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "adv_ds::@4112331d40079538124b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "minami::@17630ceac215fbf4ca63"
+		}
+	],
+	"id" : "test_due::@714eac15f71a94114fdf",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++11 -m64 -Wall -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/qiling/Documents/Test/mac-posts_src/build/minami:/home/qiling/Documents/Test/mac-posts_src/build/3rdparty/adv_ds:/home/qiling/Documents/Test/mac-posts_src/build/snap-core:/home/qiling/Documents/Test/mac-posts_src/build/glib-core:/home/qiling/Documents/Test/mac-posts_src/build/3rdparty/g3log",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../minami/libminami.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../3rdparty/adv_ds/libadv_ds.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../snap-core/libSnap.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../glib-core/libGlib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../3rdparty/g3log/libg3log.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test_due",
+	"nameOnDisk" : "test_due",
+	"paths" : 
+	{
+		"build" : "examples",
+		"source" : "examples"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/test_due.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,248 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						6,
+						7,
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "glib-core",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "glib-core",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "snap-core",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "snap-core",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "3rdparty",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "3rdparty"
+				},
+				{
+					"build" : "3rdparty/g3log",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "3rdparty/g3log",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "3rdparty/adv_ds",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "3rdparty/adv_ds",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "minami",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "minami",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "examples",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "pybinder",
+					"childIndexes" : 
+					[
+						9
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "pybinder",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "pybinder/pybind11",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 0,
+					"source" : "pybinder/pybind11"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"name" : "MINAMI",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Glib::@821ee7b6e1769cfe0f96",
+					"jsonFile" : "target-Glib-Debug-3ec463ec70b0c6d687a5.json",
+					"name" : "Glib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "MNMAPI::@eadd435b1c5e35a4bb8e",
+					"jsonFile" : "target-MNMAPI-Debug-12f5e3d9005113dde8fc.json",
+					"name" : "MNMAPI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Snap::@fd9a34a462c26eb9c3ce",
+					"jsonFile" : "target-Snap-Debug-fcd3c005ff27c7b3ed5b.json",
+					"name" : "Snap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "adv_ds::@4112331d40079538124b",
+					"jsonFile" : "target-adv_ds-Debug-a3756e7893ac7e07e6b2.json",
+					"name" : "adv_ds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "g3log::@764121f0e909bc8e064e",
+					"jsonFile" : "target-g3log-Debug-3987058e13a306b1141d.json",
+					"name" : "g3log",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "minami::@17630ceac215fbf4ca63",
+					"jsonFile" : "target-minami-Debug-3caa38b20a2a1cdd815d.json",
+					"name" : "minami",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "test_due::@714eac15f71a94114fdf",
+					"jsonFile" : "target-test_due-Debug-810fca0b73735aacd072.json",
+					"name" : "test_due",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/qiling/Documents/Test/mac-posts_src/build",
+		"source" : "/home/qiling/Documents/Test/mac-posts_src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
