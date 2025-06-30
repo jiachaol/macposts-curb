@@ -1,7 +1,0 @@
-setup.cfg
-setup.py
-MNMAPI.egg-info/PKG-INFO
-MNMAPI.egg-info/SOURCES.txt
-MNMAPI.egg-info/dependency_links.txt
-MNMAPI.egg-info/not-zip-safe
-MNMAPI.egg-info/top_level.txt
