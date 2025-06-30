@@ -11,4 +11,4 @@ Contributor:
 
 Jiachao Liu (Research assistant), Department of Civil and Environmental Engineering, Carnegie Mellon University
 
-SEan Qian (PI), Department of Civil and Environmental Engineering, Carnegie Mellon University
+Sean Qian (PI), Department of Civil and Environmental Engineering, Carnegie Mellon University
