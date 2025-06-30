@@ -1,1 +1,0 @@
-g++  -std=c++11 -m64 -Wall -O3 -DNDEBUG -O3  -rdynamic CMakeFiles/test_multiclass.dir/test_multiclass.cpp.o  -o test_multiclass  -Wl,-rpath,/home/qiling/Documents/MAC-POSTS/src ../../../libminami.so ../../../libadv_ds.so ../../../libSnap.so ../../../libGlib.so ../../../libg3log.so 
